@@ -1,6 +1,15 @@
 import React from "react";
 
 export default function Sections() {
+  const addHidden = () => {
+    modal.classList.add("hidden");
+    overlay.classList.add("hidden");
+  };
+  document.addEventListener("keydown", (e) => {
+    if (e.key == "Escape") {
+      addHidden();
+    }
+  });
   return (
     <main className="main">
       <section className="hero-section container">
@@ -112,7 +121,51 @@ export default function Sections() {
           <h3 className="modal-section__heading">
             Хотите быть в курсе свежих новостей? Включите уведомления!
           </h3>
-          <button className="modal-btn">Включить</button>
+          <button
+            onClick={() => {
+              modal.classList.remove("hidden");
+              overlay.classList.remove("hidden");
+            }}
+            className="modal-btn show-btn"
+          >
+            Включить
+          </button>
+          <div className="modal hidden" id="modal">
+            <div className="modal-header">
+              <button
+                onClick={() => {
+                  addHidden();
+                }}
+                className="btn close-btn"
+                id="close-btn"
+              >
+                <i className="fas fa-close"></i>
+              </button>
+            </div>
+            <div className="modal-body">
+              <h2 className="modal-title">
+                Хотите быть в курсе свежих новостей? Включите уведомления!
+              </h2>
+
+              <div className="modal-close-btn-container">
+                <button
+                  onClick={() => {
+                    addHidden();
+                  }}
+                  className="modal-close-btn"
+                >
+                  Включить
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            onClick={() => {
+              addHidden();
+            }}
+            className="overlay hidden"
+            id="overlay"
+          ></div>
         </div>
       </section>
       <section className="world-section">

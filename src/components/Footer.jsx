@@ -70,7 +70,7 @@ export default function Footer() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clip-path="url(#clip0_1_324)">
+            <g clipPath="url(#clip0_1_324)">
               <path
                 d="M23.62 4.41806e-08H1.37882C0.617218 0.000381514 -0.000190691 0.618172 4.41806e-08 1.37997V23.6212C0.000381514 24.3828 0.618172 25.0002 1.37997 25H23.62C24.382 25.0002 24.9998 24.3826 25 23.6206C25 23.6204 25 23.6202 25 23.62V1.37882C24.9996 0.617218 24.3818 -0.000190691 23.62 4.41806e-08Z"
                 fill="#4267B2"
@@ -94,7 +94,7 @@ export default function Footer() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clip-path="url(#clip0_1_320)">
+            <g clipPath="url(#clip0_1_320)">
               <path
                 d="M1.56244 1.70122C-0.40214 3.74185 -5.69224e-05 5.90956 -5.69224e-05 12.495C-5.69224e-05 17.9637 -0.954224 23.446 4.03953 24.7366C5.5989 25.1377 19.4156 25.1377 20.9729 24.7346C23.052 24.1981 24.7437 22.5116 24.9749 19.571C25.0072 19.1606 25.0072 5.83664 24.9739 5.41789C24.7281 2.2856 22.7999 0.480389 20.2593 0.114764C19.677 0.0303889 19.5604 0.00538891 16.5729 0.000180572C5.97598 0.00538891 3.65307 -0.466486 1.56244 1.70122Z"
                 fill="url(#paint0_linear_1_320)"
@@ -113,9 +113,9 @@ export default function Footer() {
                 y2="3.29391"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#FFDD55" />
-                <stop offset="0.5" stop-color="#FF543E" />
-                <stop offset="1" stop-color="#C837AB" />
+                <stop stopColor="#FFDD55" />
+                <stop offset="0.5" stopColor="#FF543E" />
+                <stop offset="1" stopColor="#C837AB" />
               </linearGradient>
               <clipPath id="clip0_1_320">
                 <rect width="25" height="25" fill="white" />
@@ -130,7 +130,7 @@ export default function Footer() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clip-path="url(#clip0_1_316)">
+            <g clipPath="url(#clip0_1_316)">
               <path
                 d="M12.5 25C19.4036 25 25 19.4036 25 12.5C25 5.59644 19.4036 0 12.5 0C5.59644 0 0 5.59644 0 12.5C0 19.4036 5.59644 25 12.5 25Z"
                 fill="#039BE5"
