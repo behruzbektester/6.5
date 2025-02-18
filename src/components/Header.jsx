@@ -21,12 +21,8 @@ function Header() {
           </div>
           <div className="header__right">
             <div className="search-container">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/622/622669.png"
-                alt="Search Icon"
-                width={20}
-              />
-              <input type="text" placeholder="Поиск" />
+              <img src="/search.svg" alt="Search Icon" width={20} />
+              <input className="search-input" type="text" placeholder="Поиск" />
             </div>
             <div className="toggle">
               <input type="checkbox" id="langSwitch" />

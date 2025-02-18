@@ -7,7 +7,9 @@ export default function Footer() {
       <div className="footer__top ">
         <div className="footer__top__left__container container">
           <div className="footer__top__left">
-            <Link className="footer__logo">NAMANGANLIKLAR 24</Link>
+            <Link to={"/"} className="footer__logo">
+              NAMANGANLIKLAR 24
+            </Link>
             <p className="footer__text">
               Воспроизводство, копирование, использование информации с сайта
               «NAMANGANLIKLAR24.UZ» возможно только с предварительного
@@ -28,12 +30,12 @@ export default function Footer() {
               </Link>
             </li>
             <li className="footer__list__item">
-              <Link className="footer__links" to={"/"}>
+              <Link className="footer__links" to={"/contact"}>
                 Напишите нам
               </Link>
             </li>
             <li className="footer__list__item">
-              <Link className="footer__links" to={"/"}>
+              <Link className="footer__links" to={"/list"}>
                 Темы дня
               </Link>
             </li>
@@ -45,12 +47,12 @@ export default function Footer() {
               </Link>
             </li>
             <li className="footer__list__item">
-              <Link className="footer__links" to={"/"}>
+              <Link className="footer__links" to={"/contact"}>
                 Наша команда
               </Link>
             </li>
             <li className="footer__list__item">
-              <Link className="footer__links" to={"/"}>
+              <Link className="footer__links" to={"/list"}>
                 Прислать новость
               </Link>
             </li>

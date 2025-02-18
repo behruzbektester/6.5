@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Sections() {
   const addHidden = () => {
@@ -171,80 +173,91 @@ export default function Sections() {
       <section className="world-section">
         <div className="world-section__sides-container container">
           <div className="world-section__left">
-            <div className="world-section__box">
-              <img src="/plane.png" alt="" />
-              <div className="boxes__content-container">
-                <h3 className="world-section__boxes__heading">
-                  Китайский Чунцин запустил чартерный рейс для студентов до
-                  Британии
-                </h3>
-                <p className="world-section__boxes__text">
-                  Чартерный рейс с 244 китайскими студентами вылетел из города
-                  центрального подчинения Чунцина на юго-западе Китая в
-                  британский Манчестер...
-                </p>
-                <div className="world-section__boxes__source">
-                  <img src="/kb.svg" alt="" />
-                  <span>ИА Красная Весна 12:25</span>
+            <Link className="link-to-article" to={"/article"}>
+              <div className="world-section__box">
+                <img src="/plane.png" alt="" />
+                <div className="boxes__content-container">
+                  <h3 className="world-section__boxes__heading">
+                    Китайский Чунцин запустил чартерный рейс для студентов до
+                    Британии
+                  </h3>
+                  <p className="world-section__boxes__text">
+                    Чартерный рейс с 244 китайскими студентами вылетел из города
+                    центрального подчинения Чунцина на юго-западе Китая в
+                    британский Манчестер...
+                  </p>
+                  <div className="world-section__boxes__source">
+                    <img src="/kb.svg" alt="" />
+                    <span>ИА Красная Весна 12:25</span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="world-section__box">
-              <img src="/germany-woman.png" alt="" />
-              <div className="boxes__content-container">
-                <h3 className="world-section__boxes__heading">
-                  В Германии выпустят ограниченную партию плюшевых мишек в
-                  образе Меркель
-                </h3>
-                <p className="world-section__boxes__text">
-                  БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по
-                  производству плюшевых игрушек в городе Кобург (федеральная
-                  земля Бавария) изготовила уникального...
-                </p>
-                <div className="world-section__boxes__source">
-                  <img src="/tass.svg" alt="" />
-                  <span>ТАСС 11:35</span>
+            </Link>
+            <Link className="link-to-article" to={"/article"}>
+              <div className="world-section__box">
+                <img src="/germany-woman.png" alt="" />
+                <div className="boxes__content-container">
+                  <h3 className="world-section__boxes__heading">
+                    В Германии выпустят ограниченную партию плюшевых мишек в
+                    образе Меркель
+                  </h3>
+                  <p className="world-section__boxes__text">
+                    БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по
+                    производству плюшевых игрушек в городе Кобург (федеральная
+                    земля Бавария) изготовила уникального...
+                  </p>
+                  <div className="world-section__boxes__source">
+                    <img src="/tass.svg" alt="" />
+                    <span>ТАСС 11:35</span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="world-section__box">
-              <img src="/china.png" alt="" />
-              <div className="boxes__content-container">
-                <h3 className="world-section__boxes__heading">
-                  Акции КНР утратили доверие инвесторов. Что делать с бумагами
-                  прямо сейчас
-                </h3>
-                <p className="world-section__boxes__text">
-                  За последние месяцы инвесторы в китайский рынок пережили
-                  настоящее потрясение — из-за ужесточения регулирования
-                  технологического сектора и критики некоторых...
-                </p>
-                <div className="world-section__boxes__source">
-                  <img src="/rbk.svg" alt="" />
-                  <span>РБК Инвестиции 09:35</span>
+            </Link>
+            <Link className="link-to-article" to={"/article"}>
+              <div className="world-section__box">
+                <img src="/china.png" alt="" />
+                <div className="boxes__content-container">
+                  <h3 className="world-section__boxes__heading">
+                    Акции КНР утратили доверие инвесторов. Что делать с бумагами
+                    прямо сейчас
+                  </h3>
+                  <p className="world-section__boxes__text">
+                    За последние месяцы инвесторы в китайский рынок пережили
+                    настоящее потрясение — из-за ужесточения регулирования
+                    технологического сектора и критики некоторых...
+                  </p>
+                  <div className="world-section__boxes__source">
+                    <img src="/rbk.svg" alt="" />
+                    <span>РБК Инвестиции 09:35</span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="world-section__box">
-              <img src="/china-flag.png" alt="" />
-              <div className="boxes__content-container">
-                <h3 className="world-section__boxes__heading">
-                  Китай раскритиковал заключенный Австралией, США и
-                  Великобританией антикитайский союз AUKUS
-                </h3>
-                <p className="world-section__boxes__text">
-                  Не только Франция, которая лишилась многомиллиардного
-                  контракта с Австралий, осталась недовольна созданием
-                  трехстороннего оборонного альянса AUKUS, пишет Anna-News.info
-                </p>
-                <div className="world-section__boxes__source">
-                  <img src="/solenka.svg" alt="" />
-                  <span>Solenka.info 19:43</span>
+            </Link>
+            <Link className="link-to-article" to={"/article"}>
+              <div className="world-section__box">
+                <img src="/china-flag.png" alt="" />
+                <div className="boxes__content-container">
+                  <h3 className="world-section__boxes__heading">
+                    Китай раскритиковал заключенный Австралией, США и
+                    Великобританией антикитайский союз AUKUS
+                  </h3>
+                  <p className="world-section__boxes__text">
+                    Не только Франция, которая лишилась многомиллиардного
+                    контракта с Австралий, осталась недовольна созданием
+                    трехстороннего оборонного альянса AUKUS, пишет
+                    Anna-News.info
+                  </p>
+                  <div className="world-section__boxes__source">
+                    <img src="/solenka.svg" alt="" />
+                    <span>Solenka.info 19:43</span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
             <div className="button-container">
-              <button className="more-btn">Показать ещё </button>
+              <Link to={"/list"} className="button-link more-btn">
+                Показать ещё
+              </Link>
             </div>
           </div>
           <div className="world-section__right">
