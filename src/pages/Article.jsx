@@ -67,45 +67,55 @@ export default function Article() {
             <div className="article-section__right-top">
               <div className="article__news-container">
                 <h3 className="article__right__box-heading">Главное</h3>
-                <div className="article__news">
-                  <h4 className="article__news__heading">
-                    В Фергане создадут узбекско-пакистанский университет
-                  </h4>
-                  <p className="article__news__source">
-                    Sputnik Узбекистан 14:09
-                  </p>
-                </div>
-                <div className="article__news">
-                  <h4 className="article__news__heading">
-                    Узбекистан утвердил соглашение о содействии занятости в
-                    странах СНГ
-                  </h4>
-                  <p className="article__news__source">
-                    ИА Красная Весна 10:19
-                  </p>
-                </div>
-                <div className="article__news">
-                  <h4 className="article__news__heading">
-                    В Узбекистане увеличиваются очереди за автомобилями UzAuto
-                  </h4>
-                  <p className="article__news__source">
-                    Северная газета (Армянск) 13:50
-                  </p>
-                </div>
-                <div className="article__news">
-                  <h4 className="article__news__heading">
-                    Минтуризма опровергло приостановку выплат за шаги
-                  </h4>
-                  <p className="article__news__source">
-                    Sputnik Узбекистан 14:32
-                  </p>
-                </div>
-                <div className="article__news">
-                  <h4 className="article__news__heading">
-                    В Самаркандской области произошел пожар в торговом центре
-                  </h4>
-                  <p className="article__news__source">UPL24 23:52</p>
-                </div>
+                <Link to={"/"} className="link-to">
+                  <div className="article__news">
+                    <h4 className="article__news__heading">
+                      В Фергане создадут узбекско-пакистанский университет
+                    </h4>
+                    <p className="article__news__source">
+                      Sputnik Узбекистан 14:09
+                    </p>
+                  </div>
+                </Link>
+                <Link to={"/"} className="link-to">
+                  <div className="article__news">
+                    <h4 className="article__news__heading">
+                      Узбекистан утвердил соглашение о содействии занятости в
+                      странах СНГ
+                    </h4>
+                    <p className="article__news__source">
+                      ИА Красная Весна 10:19
+                    </p>
+                  </div>
+                </Link>
+                <Link to={"/"} className="link-to">
+                  <div className="article__news">
+                    <h4 className="article__news__heading">
+                      В Узбекистане увеличиваются очереди за автомобилями UzAuto
+                    </h4>
+                    <p className="article__news__source">
+                      Северная газета (Армянск) 13:50
+                    </p>
+                  </div>
+                </Link>
+                <Link to={"/"} className="link-to">
+                  <div className="article__news">
+                    <h4 className="article__news__heading">
+                      Минтуризма опровергло приостановку выплат за шаги
+                    </h4>
+                    <p className="article__news__source">
+                      Sputnik Узбекистан 14:32
+                    </p>
+                  </div>
+                </Link>
+                <Link to={"/"} className="link-to">
+                  <div className="article__news">
+                    <h4 className="article__news__heading">
+                      В Самаркандской области произошел пожар в торговом центре
+                    </h4>
+                    <p className="article__news__source">UPL24 23:52</p>
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="article-section__right-bottom">

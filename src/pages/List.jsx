@@ -188,37 +188,48 @@ export default function List() {
               <div className="list-section__right-top">
                 <div className="list__news-container">
                   <h3 className="list__right__box-heading">Главное</h3>
-                  <div className="list__news">
-                    <h4 className="list__news__heading">
-                      В Фергане создадут узбекско-пакистанский университет
-                    </h4>
-                    <p className="list__news__source">
-                      Sputnik Узбекистан 14:09
-                    </p>
-                  </div>
-                  <div className="list__news">
-                    <h4 className="list__news__heading">
-                      Узбекистан утвердил соглашение о содействии занятости в
-                      странах СНГ
-                    </h4>
-                    <p className="list__news__source">ИА Красная Весна 10:19</p>
-                  </div>
-                  <div className="list__news">
-                    <h4 className="list__news__heading">
-                      В Узбекистане увеличиваются очереди за автомобилями UzAuto
-                    </h4>
-                    <p className="list__news__source">
-                      Северная газета (Армянск) 13:50
-                    </p>
-                  </div>
-                  <div className="list__news">
-                    <h4 className="list__news__heading">
-                      Минтуризма опровергло приостановку выплат за шаги
-                    </h4>
-                    <p className="list__news__source">
-                      Sputnik Узбекистан 14:32
-                    </p>
-                  </div>
+                  <Link to={"/"} className="link-to">
+                    <div className="list__news">
+                      <h4 className="list__news__heading">
+                        В Фергане создадут узбекско-пакистанский университет
+                      </h4>
+                      <p className="list__news__source">
+                        Sputnik Узбекистан 14:09
+                      </p>
+                    </div>
+                  </Link>
+                  <Link to={"/"} className="link-to">
+                    <div className="list__news">
+                      <h4 className="list__news__heading">
+                        Узбекистан утвердил соглашение о содействии занятости в
+                        странах СНГ
+                      </h4>
+                      <p className="list__news__source">
+                        ИА Красная Весна 10:19
+                      </p>
+                    </div>
+                  </Link>
+                  <Link to={"/"} className="link-to">
+                    <div className="list__news">
+                      <h4 className="list__news__heading">
+                        В Узбекистане увеличиваются очереди за автомобилями
+                        UzAuto
+                      </h4>
+                      <p className="list__news__source">
+                        Северная газета (Армянск) 13:50
+                      </p>
+                    </div>
+                  </Link>
+                  <Link to={"/"} className="link-to">
+                    <div className="list__news">
+                      <h4 className="list__news__heading">
+                        Минтуризма опровергло приостановку выплат за шаги
+                      </h4>
+                      <p className="list__news__source">
+                        Sputnik Узбекистан 14:32
+                      </p>
+                    </div>
+                  </Link>
                 </div>
               </div>
               <div className="list-section__right-bottom">
