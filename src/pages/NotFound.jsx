@@ -1,5 +1,11 @@
 import React from "react";
 
 export default function NotFound() {
-  return <h1>Page is not found</h1>;
+  return (
+    <>
+      <div className="not-found-container">
+        <img src="/not-found.jpg" alt="" />
+      </div>
+    </>
+  );
 }

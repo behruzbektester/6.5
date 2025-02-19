@@ -41,34 +41,54 @@ function Header() {
         <div className="header__bottom-container container">
           <ul className="header__list">
             <li className="header__list__item">
-              <Link className="header__list__item__link">Главное</Link>
+              <Link to={"/"} className="header__list__item__link">
+                Главное
+              </Link>
             </li>
             <li className="header__list__item">
-              <Link className="header__list__item__link">Интересное</Link>
+              <Link to={"/list"} className="header__list__item__link">
+                Интересное
+              </Link>
             </li>
             <li className="header__list__item">
-              <Link className="header__list__item__link">Экономика</Link>
+              <Link to={"/list"} className="header__list__item__link">
+                Экономика
+              </Link>
             </li>
             <li className="header__list__item">
-              <Link className="header__list__item__link">Политика</Link>
+              <Link to={"/list"} className="header__list__item__link">
+                Политика
+              </Link>
             </li>
             <li className="header__list__item">
-              <Link className="header__list__item__link">Общество</Link>
+              <Link to={"/contact"} className="header__list__item__link">
+                Общество
+              </Link>
             </li>
             <li className="header__list__item">
-              <Link className="header__list__item__link">Технологии</Link>
+              <Link to={"/technology"} className="header__list__item__link">
+                Технологии
+              </Link>
             </li>
             <li className="header__list__item">
-              <Link className="header__list__item__link">Спорт</Link>
+              <Link to={"/sport"} className="header__list__item__link">
+                Спорт
+              </Link>
             </li>
             <li className="header__list__item">
-              <Link className="header__list__item__link">Культура</Link>
+              <Link to={"/culture"} className="header__list__item__link">
+                Культура
+              </Link>
             </li>
             <li className="header__list__item">
-              <Link className="header__list__item__link">Происшествия</Link>
+              <Link to={"accidents"} className="header__list__item__link">
+                Происшествия
+              </Link>
             </li>
             <li className="header__list__item">
-              <Link className="header__list__item__link">Наука</Link>
+              <Link to={"/science"} className="header__list__item__link">
+                Наука
+              </Link>
             </li>
           </ul>
         </div>
